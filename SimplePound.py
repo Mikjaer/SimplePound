@@ -11,6 +11,12 @@ import re
 import random,datetime,math
 import argparse
 import pprint
+import sys
+
+# drop out early if not running latest verified working version
+MIN_PYTHON = (3, 9, 2)
+if sys.version_info < MIN_PYTHON:
+    sys.exit("Python %s.%s.%s or later is required.\n" % MIN_PYTHON)
 
 deltaMax = -1
 deltaMin = -1 
