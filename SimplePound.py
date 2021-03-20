@@ -188,7 +188,7 @@ class Worker(threading.Thread):
 		self.kill()
 
 threads = []
-for i in range(1,args.threads):
+for i in range(1,args.threads + 1):
 	threads.append(Worker("Thread "+str(len(threads)+1)));
 	threads[-1].start()
 
