@@ -6,6 +6,8 @@ this can be done like so:
  
 ./SimplePound.py "wget http://192.0.2.1 -O /dev/null" --thread 64
 
+![screenshot of SimplePound in action](https://github.com/Mikjaer/SimplePound/blob/master/screenshot.png)
+
 Once the tool is running you can in- and decrease the number of workers with the 
 [+] and [-] keys, you can pause and resume with [P] and [R] and finally you kan 
 zero the min and max counters with [Z]
