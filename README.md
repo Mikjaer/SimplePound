@@ -7,8 +7,8 @@ this can be done like so:
 ./SimplePound.py "wget http://192.0.2.1 -O /dev/null" --thread 64
 
 Once the tool is running you can in- and decrease the number of workers with the 
-+ and - keys, you can pause and resume with P and R and finally you kan zero the 
-min and max counters with Z
+[+] and [-] keys, you can pause and resume with [P] and [R] and finally you kan 
+zero the min and max counters with [Z]
 
 The verb pound means to hit or beat repeatedly with a lot of force, or to crush 
 something by hitting it repeatedly which is exactly what this tool was designed 
