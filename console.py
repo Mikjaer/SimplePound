@@ -5,7 +5,6 @@
 
 import sys;
 import os;
-import keyboard;
 import time;
 import termios
 import tty
